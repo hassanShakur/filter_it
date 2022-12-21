@@ -98,8 +98,6 @@ Main Article
   align-items: center;
 }
 
-@media (min-width: 768px) {
-}
 
 article .image {
   display: flex;
@@ -332,6 +330,13 @@ Mode Changers
 
 .switch {
   transform: translateX(100%);
+}
+
+@media (max-width: 600px) {
+  .mode {
+    top: unset;
+    bottom: 2em;
+  }
 }
 
 /*
