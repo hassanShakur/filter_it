@@ -98,7 +98,6 @@ Main Article
   align-items: center;
 }
 
-
 article .image {
   display: flex;
   flex-direction: column;
@@ -336,6 +335,11 @@ Mode Changers
   .mode {
     top: unset;
     bottom: 2em;
+  }
+
+  article .image {
+    height: 35vh;
+    width: 84vw;
   }
 }
 
