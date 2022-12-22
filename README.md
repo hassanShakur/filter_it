@@ -1,4 +1,4 @@
-### filter_it
+## Filter It
 Filtering page contents by searching and button categories with JavaScript. An additional dark light mode changer included.
 
 ### Screenshot
