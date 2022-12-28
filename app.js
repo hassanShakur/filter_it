@@ -59,7 +59,7 @@ btnContainer.addEventListener('click', (e) => {
 });
 
 searchInput.addEventListener('keyup', () => {
-  let value = searchInput.value;
+  let value = searchInput.value.toLowerCase();
   filteredData = data.filter((item) => item.meal.includes(value));
   loadImages();
 });
